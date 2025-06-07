@@ -165,7 +165,7 @@ export default function Work() {
                     height={48}
                     className="w-full h-full object-contain p-1"
                     style={{
-                      ...job.logoStyle,
+                      ...(job.logoStyle as any),
                     }}
                   />
                 </div>
